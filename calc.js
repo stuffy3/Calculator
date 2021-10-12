@@ -30,6 +30,8 @@ reader.question("What would you like to calculate?", function(input){
 		console.log(Math.pow(num1, num2))
 	} else if (mathSymbol === "sqrt"){
 		console.log (Math.sqrt(num1))
+	} else {
+		console.log("Boy you stupid! ( ಠ ͜ʖಠ)")
 	}
 
 	// This line closes the connection to the command line interface.
